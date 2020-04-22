@@ -211,16 +211,16 @@ def main():
     run = True
     FPS = 60
     level = 0
-    level_to_boss = 3
     boss_spawned = False
     lives = 5
     main_font = pygame.font.SysFont("comicsans", 50)
     lost_font = pygame.font.SysFont("comicsans", 60)
 
     enemies = []
-    dificulty = 1
+    dificulty = 5
     wave_length = dificulty
     enemy_vel = 1
+    level_to_boss = dificulty - 2
 
     player_vel = 5
     laser_vel = 5
