@@ -14,4 +14,4 @@ setup(  name = "Space invaders 0.2.0",
         version = "0.2.0",
         description = "Simple Space Shooter",
         options = {"build_exe": build_exe_options},
-        executables = [Executable("main.py", base=base)])
+        executables = [Executable("Space Invaders.py", base=base)])

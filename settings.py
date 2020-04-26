@@ -21,5 +21,8 @@ GREEN_LASER = pygame.image.load(os.path.join("assets", "pixel_laser_green.png"))
 BLUE_LASER = pygame.image.load(os.path.join("assets", "pixel_laser_blue.png"))
 YELLOW_LASER = pygame.image.load(os.path.join("assets", "pixel_laser_yellow.png"))
 
+# Bonus items
+SPEED_ITEM = pygame.image.load(os.path.join("assets", "speed.png"))
+DAMAGE_ITEM = pygame.image.load(os.path.join("assets", "damage.png"))
 # Background
 BG = pygame.transform.scale(pygame.image.load(os.path.join("assets", "background-black.png")), (WIDTH, HEIGHT))

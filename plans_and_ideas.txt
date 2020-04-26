@@ -1,3 +1,0 @@
-make more bosses (done)
-make items that could be droped from bosses and, after collections them, updrade player power, speed, etc...
-make end screen(if player won)
